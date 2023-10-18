@@ -1,0 +1,24 @@
+@media print {
+    button {
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
+
+    table {
+        button {
+            display: initial;
+        }
+    }
+
+    #pdf-content {
+        border: none;
+        box-shadow: none;
+    }
+
+    .bx--toolbar-search-container{
+        display: none;
+    }
+}

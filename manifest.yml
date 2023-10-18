@@ -1,0 +1,12 @@
+---
+applications:
+  - name: srap
+    path: /backend/target/backend-0.0.1-SNAPSHOT.war
+    memory: 512M
+    timeout: 180
+    instances: 1
+    buildpack: liberty-for-java
+env:
+  CF_INSTANCE_PORT: 8080
+  $PORT: 8080
+  buildpack: liberty-for-java
